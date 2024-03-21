@@ -22,3 +22,14 @@
     font-family: BlackSword;
     font-size: 40px;
 }
+
+@media screen and (max-width : 650px) {
+    .nav>div>h1{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
