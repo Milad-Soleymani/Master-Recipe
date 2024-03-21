@@ -21,6 +21,9 @@
 .right-div>h1{
     font-family: BlackSword;
     font-size: 40px;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 @media screen and (max-width : 650px) {
