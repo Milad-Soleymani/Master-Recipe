@@ -1,3 +1,8 @@
+@font-face {
+    font-family: BlackSword;
+    src: url(../assets/fonts/Blacksword.otf);
+}
+
 .NavImg{
     width: 200px;
 }
@@ -11,4 +16,9 @@
 
 .nav>div{
     margin: 10px;
+}
+
+.right-div>h1{
+    font-family: BlackSword;
+    font-size: 40px;
 }
