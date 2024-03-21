@@ -1,0 +1,14 @@
+.NavImg{
+    width: 200px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+
+.nav>div{
+    margin: 10px;
+}
