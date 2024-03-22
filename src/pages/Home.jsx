@@ -3,3 +3,5 @@ const Home = () => {
     <h1> Master Recipe </h1>
  )   
 }
+
+export default Home;
