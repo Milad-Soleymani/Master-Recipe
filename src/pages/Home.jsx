@@ -13,7 +13,7 @@ const Home = () => {
                 You view Most popular foods below under
             </p>
             <h2 className='MostPopularHeader'>
-                Must Popular
+                Must Popular foods
             </h2>
             <div className='Cards'>
 
