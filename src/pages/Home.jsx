@@ -5,6 +5,11 @@ import pizzaPepperoni from '../assets/images/pizza-pepperoni.jpeg'
 import burger from '../assets/images/burger.jpg'
 import sushi from '../assets/images/sushi.jpg'
 
+import cake from '../assets/images/cake.jpg'
+import Baklava from '../assets/images/baklava.jpg'
+import desert from '../assets/images/desert.jpg'
+
+
 const Home = () => {
     return (
         <div>
@@ -47,23 +52,23 @@ const Home = () => {
             <div className='sweetsCards'>
 
                 <div className="sweetsCard1 sweetsCard">
-                    <img src={ } alt='' />
-                    <h3>  </h3>
-                    <p>  </p>
+                    <img src={cake} alt='cake' />
+                    <h3> cake </h3>
+                    <p> Cake is a flour confection made from flour, sugar, and other ingredients and is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate and which share features with desserts such as pastries, meringues, custards, and pies. </p>
                     <a href=""> Get Recipe </a>
                 </div>
 
                 <div className="sweetsCard2 sweetsCard">
-                    <img src={ } alt='' />
-                    <h3>  </h3>
-                    <p>  </p>
+                    <img src={Baklava} alt=' Baklava ' />
+                    <h3> Baklava </h3>
+                    <p> Baklava is a layered dessert made of filo pastry sheets, filled with chopped nuts, and sweetened with syrup or honey. </p>
                     <a href=""> Get Recipe </a>
                 </div>
 
                 <div className="sweetsCard3 sweetsCard">
-                    <img src={ } alt='' />
-                    <h3>  </h3>
-                    <p>  </p>
+                    <img src={desert} alt=' desert ' />
+                    <h3> desert </h3>
+                    <p> Dessert is a course that concludes a meal. The course consists of sweet foods, such as cake, biscuit, ice cream and possibly a beverage such as dessert wine and liqueur. </p>
                     <a href=""> Get Recipe </a>
                 </div>
             </div>
