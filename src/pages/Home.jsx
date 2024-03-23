@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="Card3 Card">
                     <img src={sushi} />
                     <h3> Sushi </h3>
-                    <p> Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, plus a variety of ingredients, such as vegetables, and any meat </p>
+                    <p>Sushi is a Japanese dish made of vinegared rice that is usually accompanied by meat </p>
                     <a href=""> Get Recipe </a>
                 </div>
 
