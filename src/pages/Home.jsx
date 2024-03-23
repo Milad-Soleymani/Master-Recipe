@@ -27,7 +27,7 @@ const Home = () => {
                 <div className="Card2 Card">
                     <img src={burger} />
                     <h3> burger </h3>
-                    <p> Next to pizza, burger is one of the best foods in the world and many people like it very much </p>
+                    <p> Next to pizza, burger is one of the best foods in the world and many people like it  </p>
                     <a href=""> Get Recipe </a>
                 </div>
 
@@ -37,6 +37,7 @@ const Home = () => {
                     <p>Sushi is a Japanese dish made of vinegared rice that is usually accompanied by meat </p>
                     <a href=""> Get Recipe </a>
                 </div>
+
 
             </div>
         </div>

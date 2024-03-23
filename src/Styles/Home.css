@@ -25,6 +25,8 @@
     background-color: #e4e0e0;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .Card>img {
@@ -76,7 +78,9 @@ a {
     display: none;
 }
 
-
+.Card1>p{
+    font-size: 15px;
+}
 
 @media screen and (max-width: 1000px) {
     .Cards {
