@@ -9,60 +9,93 @@
     font-family: poppins;
 }
 
-.Cards{
+
+.MostPopularHeader{
+    font-family: Nunito;
+    margin-top: 100px;
+}
+
+.Cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.Card{
+.Card {
     background-color: #e4e0e0;
     border-radius: 10px;
-    margin: 50px;
-    padding: 10px;
     text-align: center;
 }
 
-.Card>img{
-    width: 350px;
+.Card>img {
+    width: 300px;
     border-radius: 10px;
     height: 200px;
     object-fit: cover;
 }
-.Card>h3{
+
+.Card>h3 {
     font-family: Nunito;
     font-size: 130%;
 }
-.Card>p{
+
+.Card>p {
     font-family: Nunito;
-    width: 350px;
+    width: 310px;
 }
-.Card>button{
+
+.Card>button {
     width: 150px;
     border-radius: 10px;
     border: none;
     margin-bottom: 10px;
-    
+
 }
-.Card>a{
-    color: #FF6363;   
+
+.Card>a {
+    color: #FF6363;
     background: white;
     border-radius: 10px;
     padding: 5px;
-    margin-bottom: 120px;
-    transition: background-color 0.25s ease-in-out;
+    margin: 20px;
+    transition: background-color 1s ease-in-out;
 }
 
-.Card>a:hover{
-    background-color: #FF6363;   
+.Card>a:hover {
+    background-color: #FF6363;
     color: white;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 750px) {
-    
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card {
+        margin-bottom: 100px;
+        text-align: center;
+        height: 430px;
+        margin-bottom: 20px;
+    }
+
+    .Card>p {
+        text-align: center;
+        padding: 10px;
+    }
 }

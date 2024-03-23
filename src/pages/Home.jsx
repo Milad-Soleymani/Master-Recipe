@@ -3,6 +3,7 @@ import '../Styles/Home.css'
 
 import pizzaPepperoni from '../assets/images/pizza-pepperoni.jpeg'
 import burger from '../assets/images/burger.jpg'
+import sushi from '../assets/images/sushi.jpg'
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
             <p> You can view most popular food, recipes and cook.
                 You view Most popular foods below under
             </p>
-            <h2 className='MoostPoularHeader'>
+            <h2 className='MostPopularHeader'>
                 Must Popular
             </h2>
             <div className='Cards'>
@@ -31,13 +32,10 @@ const Home = () => {
                 </div>
 
                 <div className="Card3 Card">
-
-
-                </div>
-
-                <div className="Card4 Card">
-
-
+                    <img src={sushi} />
+                    <h3> Sushi </h3>
+                    <p> Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, plus a variety of ingredients, such as vegetables, and any meat </p>
+                    <a href=""> Get Recipe </a>
                 </div>
 
             </div>
