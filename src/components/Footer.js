@@ -1,15 +1,23 @@
 import '../Styles/Footer.css'
 
+
+import {Github} from 'react-bootstrap-icons'
+
 const Footer = () => {
 
     return (
         <div className="footer">
             <div className='left-part'>
-            <h4> All right reserved  
-                copyright 2024 	&#169;
-            </h4>
+                <h4> All right reserved  </h4>
+                <h4>  copyright {new Date().getFullYear()} &#169;</h4>
             </div>
             <div className='right-part'>
+                <h3> Developer Social Media's : </h3>
+                <div className='Social-Media'>
+                    <a target='_blank' href='https://Github.com/MiladCoderSoli'>
+                    <Github width='50px' height='50px' />
+                       <br /> GitHub </a>
+                </div>
             </div>
         </div>
     )
