@@ -72,6 +72,10 @@ const Home = () => {
                     <a href=""> Get Recipe </a>
                 </div>
             </div>
+            <div>
+                <h3> Donate us! </h3>
+                <p> You can support us by scanning the qr code in front of you </p>
+            </div>
         </div>
     )
 }
