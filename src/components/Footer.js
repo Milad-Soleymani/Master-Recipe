@@ -1,7 +1,8 @@
 import '../Styles/Footer.css'
 
 
-import {Github} from 'react-bootstrap-icons'
+import { Github } from 'react-bootstrap-icons'
+import { Instagram } from 'react-bootstrap-icons'
 
 const Footer = () => {
 
@@ -14,13 +15,20 @@ const Footer = () => {
             <div className='right-part'>
                 <h3> Developer Social Media's : </h3>
                 <div className='Social-Media'>
-                    <a target='_blank' href='https://Github.com/MiladCoderSoli'>
-                    <Github width='50px' height='50px' />
-                       <br /> GitHub </a>
+                    <div>
+                        <a target='_blank' href='https://Github.com/MiladCoderSoli'>
+                            <Github width='50px' height='50px' />
+                            <br /> GitHub </a>
+                        </div>
+                        <div>
+                            <a target='_blank' href='https://instagram.com/web.coder2'> 
+                            <Instagram width='50px' height='50px' />
+                            <br /> Instagram </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    )
+            )
 }
 
-export default Footer;
+            export default Footer;

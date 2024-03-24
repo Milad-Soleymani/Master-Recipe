@@ -12,12 +12,21 @@
     padding: 20px;
 }
 
-.footer>.right-part>.Social-Media>a{
+a{
     color: #fff;
 }
 
 .footer>.left-part>h3, .footer>.left-part>h4, .footer>.left-part>h5, .footer>.left-part>h6{
     margin: 0;
+}
+
+.Social-Media{
+    display: flex;
+    flex-direction: row;
+}
+
+.Social-Media>div{
+    margin: 20px;
 }
 
 a{
