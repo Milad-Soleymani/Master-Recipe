@@ -73,7 +73,7 @@ const Home = () => {
             </div>
             <div className='Donate'>
                 <h3 className='DonateHeader'> Donate us! </h3>
-                <p className='DonateAbout'> You can support us by scanning the qr code in front of you </p>
+                <p className='DonateAbout'> You can support us by scanning the qr code in below </p>
                 <img src={qrCode} /> 
                 <p> Address:  THSv14oHxBxiwNKQE5wt49ujgFsaX7asJV </p>
             </div>
