@@ -92,6 +92,15 @@ a {
     font-family: Nunito;
 }
 
+.Card{
+    box-shadow: 3px 3px 3px gray;
+    transition: box-shadow 500ms ease-in-out;
+}
+
+.Card:hover{
+    box-shadow: 8px 8px 8px gray;
+}
+
 @media screen and (max-width: 1000px) {
     .Cards {
         display: flex;
