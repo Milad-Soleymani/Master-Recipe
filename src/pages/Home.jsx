@@ -72,9 +72,10 @@ const Home = () => {
                     <a href=""> Get Recipe </a>
                 </div>
             </div>
-            <div>
-                <h3> Donate us! </h3>
-                <p> You can support us by scanning the qr code in front of you </p>
+            <div className='Donate'>
+                <h3 className='DonateHeader'> Donate us! </h3>
+                <p className='DonateAbout'> You can support us by scanning the qr code in front of you </p>
+                <img src={} /> 
             </div>
         </div>
     )
