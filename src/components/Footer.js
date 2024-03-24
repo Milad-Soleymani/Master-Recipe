@@ -3,6 +3,7 @@ import '../Styles/Footer.css'
 
 import { Github } from 'react-bootstrap-icons'
 import { Instagram } from 'react-bootstrap-icons'
+import { Linkedin } from 'react-bootstrap-icons'
 
 const Footer = () => {
 
@@ -25,6 +26,13 @@ const Footer = () => {
                             <Instagram width='50px' height='50px' />
                             <br /> Instagram </a>
                         </div>
+
+                        <div>
+                            <a target='_blank' href='https://www.linkedin.com/in/miladcoder/'> 
+                            <Linkedin width='50px' height='50px' />
+                            <br /> Linkedin </a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
