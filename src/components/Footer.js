@@ -6,13 +6,16 @@ import { Instagram } from 'react-bootstrap-icons'
 import { Linkedin } from 'react-bootstrap-icons'
 import { Telegram } from 'react-bootstrap-icons'
 
+import mainImg from '../assets/images/MasterRecipe.png'
+
 const Footer = () => {
 
     return (
         <div className="footer">
             <div className='left-part'>
-                <h4> All right reserved  </h4>
-                <h4>  copyright {new Date().getFullYear()} &#169;</h4>
+                <img src={mainImg} width='200px' /> 
+                <h3>  copyright {new Date().getFullYear()} &#169;</h3>
+                <h3> All right reserved  </h3>
             </div>
             <div className='right-part'>
                 <h3> Developer Social Media's : </h3>
