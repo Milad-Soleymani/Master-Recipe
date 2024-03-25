@@ -2,7 +2,7 @@ import pepperoni from '../assets/images/pepperoni.jpg'
 
 import { BsEmojiHeartEyes } from "react-icons/bs";
 
-import '../Styles/pepperoni.css'
+import '../Styles/recipe.css'
 
 const Pepproni = () => {
 
@@ -10,7 +10,7 @@ const Pepproni = () => {
         <div>
             <div className='Header'>
                 <div className="picture">
-                    <img src={pepperoni} className='pepperoniImage' alt='pepperoni' />
+                    <img src={pepperoni} className='HeadImage' alt='pepperoni' />
                 </div>
                 <div className="details">
                     <h2> Pizza Pepperoni </h2>
