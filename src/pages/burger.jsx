@@ -2,9 +2,9 @@ import burgerImg from '../assets/images/burger.jpg'
 
 import { BsEmojiHeartEyes } from "react-icons/bs";
 
-import '../Styles/burger.css'
+import '../Styles/recipe.css'
 
-const burger = () => {
+const Burger = () => {
 
     return (
         <div>
@@ -47,4 +47,4 @@ const burger = () => {
     )
 }
 
-export default burger;
+export default Burger;
