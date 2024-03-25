@@ -1,9 +1,9 @@
-.pepperoniImage{
+.pepperoniImage {
     width: 100%;
     height: 100%;
 }
 
-.Header{
+.Header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,28 +11,34 @@
     font-family: Nunito;
 }
 
-.Header>div>h2{
+.Header>div>h2 {
     font-size: 40px;
 }
 
-.picture{
+.picture {
     width: fit-content;
     width: 600px;
     padding: 0;
 }
 
-ul{
+ul {
     text-align: left;
 }
 
-li{
+li {
     list-style-type: disc;
     font-size: 20px;
 }
 
+.How-to-cook{
+    text-align: left;
+    padding: 10px;
+    font-family: Nunito;
+}
+
 
 @media screen and (max-width: 1000px) {
-    .Header{
+    .Header {
         display: flex;
         flex-direction: column;
         justify-content: center;
