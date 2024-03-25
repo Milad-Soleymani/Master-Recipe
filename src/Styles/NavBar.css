@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width : 650px) {
-    .nav>div>h1{
+    .nav>div>a>h1{
         display: none;
     }
     .nav{
