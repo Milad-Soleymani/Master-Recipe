@@ -5,12 +5,12 @@ const NavBar = () => {
     return (
         <div className="nav">
             <div className="right-div">
-                <h1>
+                <a href='/' className='HeaderNAvbar'><h1>
                     Master Recipe
-                </h1>
+                </h1></a>
             </div>
             <div className="left-div">
-                <img src={Logo} className='NavImg' alt="Master Recipe" />
+                <a href='/'><img src={Logo} className='NavImg' alt="Master Recipe" /></a>
             </div>
         </div>
     )
