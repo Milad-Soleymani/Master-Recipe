@@ -54,21 +54,21 @@ const Home = () => {
                     <img src={cake} alt='cake' />
                     <h3> cake </h3>
                     <p> Cake is a flour confection made from flour, sugar, and other ingredients and is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate </p>
-                    <a href=""> Get Recipe </a>
+                    <a href="/recipe/cake"> Get Recipe </a>
                 </div>
 
                 <div className="Card2 Card">
                     <img src={Baklava} alt=' Baklava ' />
                     <h3> Baklava </h3>
                     <p> Baklava is a layered dessert made of filo pastry sheets, filled with chopped nuts, and sweetened with syrup or honey. </p>
-                    <a href=""> Get Recipe </a>
+                    <a href="/recipe/baklava"> Get Recipe </a>
                 </div>
 
                 <div className="Card3 Card">
                     <img src={desert} alt=' desert ' />
-                    <h3> desert </h3>
+                    <h3> dessert </h3>
                     <p> Dessert is a course that concludes a meal. The course consists of sweet foods, such as cake, biscuit, ice cream and possibly a beverage such as dessert wine and liqueur. </p>
-                    <a href=""> Get Recipe </a>
+                    <a href="/recipe/dessert"> Get Recipe </a>
                 </div>
             </div>
             <div className='Donate'>
