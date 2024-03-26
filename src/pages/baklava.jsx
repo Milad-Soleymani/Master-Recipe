@@ -1,5 +1,7 @@
 import BaklavaImg from '../assets/images/Baklava.jpg'
 
+import { BsEmojiHeartEyes } from 'react-icons/bs';
+
 const Baklava = () => {
 
     return (

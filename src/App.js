@@ -7,6 +7,8 @@ import Pepproni from './pages/pepperoni';
 import Burger from './pages/burger'
 import Sushi from './pages/sushi';
 import  Cake  from './pages/cake';
+import Baklava from './pages/baklava';
+
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -23,6 +25,7 @@ function App() {
           <Route path='/recipe/burger' element={<Burger />} />
           <Route path='/recipe/sushi' element={<Sushi />} />
           <Route path='/recipe/cake' element={<Cake />} />
+          <Route path='/recipe/baklava' element={<Baklava />} />
         </Routes>
         <Footer />
       </Router>
