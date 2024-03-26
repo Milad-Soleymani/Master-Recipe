@@ -10,11 +10,11 @@ import cakeImg from '../assets/images/cake.jpg'
         <div>
                     <div className='Header'>
                 <div className="picture">
-                    <img src={cakeImg} width='800px' className='sushiImage' alt='sushi' />
+                    <img src={cakeImg} width='800px' className='CakeImage' alt='Cake' />
                 </div>
                 <div className="details">
-                    <h2>  sushi </h2>
-                    <h4> Cook Time :    0.5 hours </h4>
+                    <h2>  Cake </h2>
+                    <h4> Cook Time :    1.5 hours </h4>
                     <ul>
                         <li> Lorem ipsum dolor sit amet. </li>
                         <li> Lorem ipsum dolor sit amet. </li>
