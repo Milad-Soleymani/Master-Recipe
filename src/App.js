@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Pepproni from './pages/pepperoni';
 import Burger from './pages/burger'
 import Sushi from './pages/sushi';
+import  Cake  from './pages/cake';
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
           <Route path='/recipe/pepperoni' element={<Pepproni />} />
           <Route path='/recipe/burger' element={<Burger />} />
           <Route path='/recipe/sushi' element={<Sushi />} />
+          <Route path='/recipe/cake' element={<Cake />} />
         </Routes>
         <Footer />
       </Router>
