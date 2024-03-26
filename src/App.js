@@ -9,6 +9,7 @@ import Sushi from './pages/sushi';
 import  Cake  from './pages/cake';
 import Baklava from './pages/baklava';
 import Dessert from './pages/dessert';
+import NotFound from './pages/404';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/recipe/cake' element={<Cake />} />
           <Route path='/recipe/baklava' element={<Baklava />} />
           <Route path='/recipe/dessert' element={<Dessert />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
