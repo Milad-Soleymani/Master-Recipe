@@ -1,0 +1,18 @@
+.NFound>h3{
+    font-family: Nunito;
+    font-size: 40px;
+}
+
+.NFound>a{
+    color: #FF6363;
+    background-color: #fff;
+    padding: 15px;
+    border: 2px solid #FF6363;
+    border-radius: 10px;
+    transition: background-color 1s ease-in-out;
+}
+
+.NFound>a:hover{
+    background-color: #FF6363;
+    color: #fff;
+}
