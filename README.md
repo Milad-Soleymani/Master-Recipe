@@ -44,3 +44,10 @@ npm install
 ```bash
 npm start
 ```
+
+
+#### Please 
+
+##### Give a :star:
+###### and
+##### follow my GitHub pageee :troll:
