@@ -50,4 +50,4 @@ npm start
 
 ##### Give a :star:
 ###### and
-##### follow my GitHub pageee :troll:
+##### follow my GitHub pageee :trollface:
