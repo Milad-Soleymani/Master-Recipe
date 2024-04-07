@@ -8,46 +8,68 @@ import { Telegram } from 'react-bootstrap-icons'
 
 import mainImg from '../assets/images/MasterRecipe.png'
 
+import { Heart } from "react-bootstrap-icons"
+import { HeartFill } from "react-bootstrap-icons"
+import { useState } from 'react'
+
 const Footer = () => {
+
+    const [likes, setLikes] = useState(10)
 
     return (
         <div className="footer">
             <div className='left-part'>
-                <img src={mainImg} width='200px' /> 
+                <img src={mainImg} width='200px' />
                 <h3>  copyright {new Date().getFullYear()} &#169;</h3>
                 <h3> All right reserved  </h3>
             </div>
+
+
+
+            <div style={{ margin: '50px' }}> <Heart onClick={() => {
+                setLikes(likes + 1)
+            }} className='like-shape' />
+                <h4> {likes} </h4>
+            </div>
+
+
+
             <div className='right-part'>
                 <h3> Developer Social Media's : </h3>
                 <div className='Social-Media'>
+
                     <div>
                         <a target='_blank' href='https://Github.com/MiladCoderSoli'>
                             <Github width='50px' height='50px' />
                             <br /> GitHub </a>
-                        </div>
-                        <div>
-                            <a target='_blank' href='https://instagram.com/web.coder2'> 
+                    </div>
+
+
+                    <div>
+                        <a target='_blank' href='https://instagram.com/web.coder2'>
                             <Instagram width='50px' height='50px' />
                             <br /> Instagram </a>
-                        </div>
+                    </div>
 
-                        <div>
-                            <a target='_blank' href='https://www.linkedin.com/in/miladcoder/'> 
+
+                    <div>
+                        <a target='_blank' href='https://www.linkedin.com/in/miladcoder/'>
                             <Linkedin width='50px' height='50px' />
                             <br /> Linkedin </a>
-                        </div>
+                    </div>
 
 
-                        <div>
-                            <a target='_blank' href='https://t.me/miladcoderishere'> 
+                    <div>
+                        <a target='_blank' href='https://t.me/miladcoderishere'>
                             <Telegram width='50px' height='50px' />
                             <br /> Telegram </a>
-                        </div>
-                        
+
                     </div>
+
                 </div>
             </div>
-            )
+        </div>
+    )
 }
 
-            export default Footer;
+export default Footer;
