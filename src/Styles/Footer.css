@@ -1,7 +1,4 @@
-
-
-
-.footer{
+.footer {
     background-color: #1f1e1e;
     display: flex;
     flex-direction: row;
@@ -12,36 +9,51 @@
     padding: 20px;
 }
 
-a{
+a {
     color: #fff;
 }
 
-.footer>.left-part>h3, .footer>.left-part>h4, .footer>.left-part>h5, .footer>.left-part>h6{
+.footer>.left-part>h3,
+.footer>.left-part>h4,
+.footer>.left-part>h5,
+.footer>.left-part>h6 {
     margin: 0;
 }
 
-.Social-Media{
+.Social-Media {
     display: flex;
     flex-direction: row;
 }
 
-.Social-Media>div{
+.Social-Media>div {
     margin: 20px;
 }
 
-a{
+a {
     text-decoration: none;
-    
+
+}
+
+.like-shape {
+    cursor: pointer;
+    font-size: 60px;
+    transition: color 0.5s linear;
+}
+
+.like-shape:hover {
+    color: red;
+
 }
 
 @media screen and (max-width: 800px) {
-    .footer{
+    .footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .right-part{
-        margin-top: 100px;
+
+    .right-part {
+        margin-top: 0px;
     }
 }
